@@ -24,7 +24,7 @@ jobs:
   run-tests:
     runs-on: ubuntu-latest
     name: run test and check coverage
-    needs: run-phpstan
+    # needs: run-phpstan
     steps:
       - name: Setup PHP
         uses: shivammathur/setup-php@v2

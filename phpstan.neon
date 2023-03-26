@@ -7,6 +7,7 @@ parameters:
         - app/
         - config/
         - database/
+        - routes/
         - tests/
     excludePaths:
         - resources/views/vendor
